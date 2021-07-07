@@ -63,6 +63,12 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
 .number {
   background: #eee;
   color: #333;
