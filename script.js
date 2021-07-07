@@ -33,7 +33,7 @@ document.querySelector('.check').addEventListener('click', function () {
     displayMessage('🍕 Correct Number!');
     document.querySelector('body').style.backgroundColor = '#60b347';
 
-    // document.querySelector('.number').style.width = '30rem';
+    document.querySelector('.number').style.width = '15rem';
 
     document.querySelector('.number').textContent = secretNumber;
 
