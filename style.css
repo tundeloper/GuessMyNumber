@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif !important;
+  font-family: 'Monoton', cursive;
+  color: #eee;
+  background-color: #222;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 1300px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.number {
+  background: #eee;
+  color: #333;
+  font-size: 6rem;
+  width: 15rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+@media only screen and (max-width: 1300px) {
+  .number {
+    font-size: 4.5rem;
+  }
+}
+
+.between {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #eee;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5rem;
+  padding: 2.5rem;
+  width: 25rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  .guess {
+    font-size: 3rem;
+    padding: 2rem;
+    width: 15rem;
+    height: 5rem;
+  }
+}
+
+.btn {
+  border: none;
+  background-color: #fff;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1300px) {
+  .btn {
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
+  }
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #222;
+  transition: all.2s;
+}
+
+/* .btn:focus {
+  outline: rgb(108, 23, 112);
+} */
+
+.message {
+  margin-bottom: 8rem;
+  height: 3rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  .message {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+.label-score {
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  .label-score {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .core {
+    font-size: 1.5rem;
+  }
+}
