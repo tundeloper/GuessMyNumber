@@ -49,6 +49,12 @@ main {
   align-items: center;
 }
 
+@media only screen and (max-width: 1300px) {
+  .left {
+    margin-top: 8rem;
+  }
+}
+
 .right {
   width: 52rem;
   font-size: 2rem;
@@ -65,19 +71,13 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 1300px) {
-  h1 {
-    font-size: 3.5rem;
-  }
-}
-
 @media only screen and (max-width: 800px) {
   h1 {
     font-size: 2rem;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1300px) {
   h1 {
     font-size: 3.5rem;
   }
@@ -134,12 +134,6 @@ h1 {
     padding: 2rem;
     width: 15rem;
     height: 5rem;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  .guess {
-    margin-top: 8rem;
   }
 }
 
