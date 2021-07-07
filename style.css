@@ -36,6 +36,7 @@ main {
 
 @media only screen and (max-width: 800px) {
   main {
+    margin-top: 2rem;
     flex-direction: column;
     text-align: center;
   }
