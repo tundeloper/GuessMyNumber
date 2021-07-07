@@ -38,7 +38,7 @@ main {
   main {
     flex-direction: column;
     text-align: center;
-    justify-self: center;
+    justify-content: space-between;
   }
 }
 
@@ -52,6 +52,12 @@ main {
 .right {
   width: 52rem;
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  .left {
+    margin-top: 2rem;
+  }
 }
 
 /* ELEMENTS STYLE */
