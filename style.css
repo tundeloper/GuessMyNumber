@@ -54,12 +54,6 @@ main {
   font-size: 2rem;
 }
 
-@media only screen and (max-width: 1300px) {
-  .left {
-    margin-top: 2rem;
-  }
-}
-
 /* ELEMENTS STYLE */
 h1 {
   font-size: 4rem;
@@ -140,6 +134,12 @@ h1 {
     padding: 2rem;
     width: 15rem;
     height: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .guess {
+    margin-top: 3rem;
   }
 }
 
