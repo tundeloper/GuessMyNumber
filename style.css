@@ -139,7 +139,7 @@ h1 {
 
 @media only screen and (max-width: 1300px) {
   .guess {
-    margin-top: 3rem;
+    margin-top: 8rem;
   }
 }
 
@@ -167,9 +167,9 @@ h1 {
   transition: all.2s;
 }
 
-.btn:focus {
+/* .btn:focus {
   outline: rgb(108, 23, 112);
-}
+} */
 
 .message {
   margin-bottom: 8rem;
