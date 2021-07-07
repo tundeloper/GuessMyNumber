@@ -48,6 +48,12 @@ main {
   align-items: center;
 }
 
+@media only screen and (max-width: 800px) {
+  .left {
+    text-align: center;
+  }
+}
+
 .right {
   width: 52rem;
   font-size: 2rem;
