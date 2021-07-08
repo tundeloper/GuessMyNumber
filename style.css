@@ -34,7 +34,7 @@ main {
   justify-content: space-around;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 576px) {
   main {
     flex-direction: column;
     text-align: center;
@@ -49,7 +49,7 @@ main {
   align-items: center;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 570px) {
   .left {
     margin-top: 8rem;
   }
